@@ -1,5 +1,5 @@
 name: End-to-end tests
-on: push
+on: push # irá executar quando houver um push no repositório
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
